@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.*
+
+# uv / virtualenv
+.venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# jupyter
+.ipynb_checkpoints/
+
+# gradio (cache + flagged submissions)
+.gradio/
+flagged/
+
+# os / editor cruft
+.DS_Store
+Thumbs.db
